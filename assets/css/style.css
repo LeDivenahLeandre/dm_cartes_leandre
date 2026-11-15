@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(6, 73, 64);
+}
+
+.artist_name {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.singer_name {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.img_box {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.desc {
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.common_card {
+    margin: 30px;
+    border-radius: 15%;
+    width: 280px;
+    background-color: white;
+}
+
+.rare_card {
+    margin: 30px;
+    border-radius: 15%;
+    width: 280px;
+    background-color: goldenrod;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
